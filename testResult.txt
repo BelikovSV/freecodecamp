@@ -146,3 +146,9 @@ myStr += " This is the second sentence."
 const myName = "Sergey";
 const myStr = "My name is " + myName + "and I am well!";
 
+@31
+// Change code below this line
+const someAdjective = "love";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
+
