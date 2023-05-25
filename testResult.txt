@@ -22,7 +22,7 @@ var a = 9;
 var myFirstName = "Sergey";
 var myLastName = "Belikov";
 
-8
+@8
 // Only change code below this line
 var a = 5;
 var b = 10;
@@ -141,4 +141,8 @@ const myStr = "This is the start." + " This is the end."; // Change this line
 let myStr = "This is the first sentence.";
 myStr += " This is the second sentence."
 
+@30
+// Only change code below this line
+const myName = "Sergey";
+const myStr = "My name is " + myName + "and I am well!";
 
