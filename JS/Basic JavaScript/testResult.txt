@@ -189,3 +189,68 @@ const lastName = "Lovelace";
 
 // Only change code below this line
 const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
+
+@36
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
+
+@37
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+// Only change code below this line
+const wordBlanks = "The " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb; // Change this line
+// Only change code above this line
+
+@38
+// Only change code below this line
+const myArray = ["text",4];
+
+@39
+// Only change code below this line
+const myArray = [["text2",2],["text",1]];
+
+@40
+const myArray = [50, 60, 70];
+const myData = myArray[0];
+console.log(myData)
+
+@41
+// Setup
+const myArray = [18, 64, 99];
+myArray[0] = 45;
+console.log(myArray[0])
+// Only change code below this line
+
+@42
+const myArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+
+const myData = myArray[2][1];
+
+@43
+// Setup
+const myArray = [["John", 23], ["cat", 2]];
+
+// Only change code below this line
+myArray.push(["dog",3])
+console.log(myArray)
+
+@44
+// Setup
+const myArray = [["John", 23], ["cat", 2]];
+
+// Only change code below this line
+const removedFromMyArray = myArray.pop();
+console.log(removedFromMyArray);
+console.log(myArray);
+
